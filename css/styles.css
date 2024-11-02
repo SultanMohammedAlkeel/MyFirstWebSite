@@ -138,3 +138,64 @@ a:hover{
     right:300px;
     top: 60px;
 }
+/* Media Queries */
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30pt;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .skill-row {
+        width: 90%;
+    }
+
+    .personal-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact-msg {
+        width: 90%;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    #cloud1, #cloud2 {
+        width: 100px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 40pt;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+
+    .skill-row {
+        width: 70%;
+    }
+
+    .personal-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .contact-msg {
+        width: 70%;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
