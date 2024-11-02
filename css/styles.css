@@ -29,7 +29,7 @@ h3{
 
 }
 p{
-    font-size: 16px;
+    font-size: 10px;
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
@@ -132,13 +132,13 @@ a:hover{
 
 #cloud2{
     position: absolute;
-    bottom: 300px;
-    left: 300px;
+    bottom: 30%;
+    left: 30%;
 }
 #cloud1{
     position: absolute;
-    right:300px;
-    top: 60px;
+    right:30%;
+    top: 10%;
 }
 /* Media Queries */
 
@@ -170,7 +170,7 @@ a:hover{
     }
 
     #cloud1, #cloud2 {
-        width: 100px;
+        width: 20%;
     }
 }
 
